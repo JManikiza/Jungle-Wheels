@@ -1,0 +1,254 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff9e0;
+  padding-bottom: 30px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+/* NAVIGATION */
+nav {
+  font-size: 1.1rem;
+}
+
+.nav-item {
+  padding-right: 16px;
+}
+
+ul {
+  margin-right: 170px;
+}
+
+.nav-link {
+  color: #f1c550;
+  transition-duration: 0.4s;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #f1c550;
+}
+
+.navbar-brand:hover {
+  color: #f1c550;
+}
+
+.navbar .navbar-toggler-icon .nav-toggler .nav-link .navbar-brand {
+  color: #f1c550;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(219,187,102)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+/* TITLE SECTION */
+#titlesec {
+  background-color: #a1c45a;
+  color: #fff9e0;
+}
+
+.heading {
+  padding: 0 8% 0;
+}
+
+.toptext {
+  padding: 0 13% 0;
+  position: relative;
+  right: 24px;
+}
+
+.container-fluid {
+  padding: 10% 14% 6% 14%;
+  position: relative;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 5%
+}
+
+@media (max-width:1028px) {
+
+  #titlesec {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: none;
+
+  }
+}
+
+.download-button {
+  margin: 7% 6% 5%;
+}
+
+/* FEATURE SECTION */
+#features {
+  padding: 7% 20%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0 5% 0;
+}
+
+.icons {
+  color: #f1c550;
+  transition-duration: 0.6s;
+  padding-bottom: 5%;
+}
+
+.icons:hover {
+  color: #a1c45a;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  background-color: #a1c45a;
+  text-align: center;
+  text-shadow: -1px 0px 2px rgba(150, 150, 150, 1);
+  color: #f5dea3;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 30%;
+}
+
+/* PRESS SECTION */
+#press {
+  background-color: #a1c45a;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.presslogo {
+  width: 10%;
+  margin: 4% 4%;
+}
+
+/* MEET THE TEAM */
+
+#team {
+  padding: 5% 20%;
+}
+
+.teamheader {
+  text-align: center;
+  font-style: 'Montserrat';
+  padding-bottom: 100px;
+}
+
+.photos {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.attribute {
+  font-size:0.5rem;
+  position: relative;
+  top:90px;
+}
+/* PRICING */
+#pricing {
+  text-align: center;
+  padding: 7% 20%;
+  background-color: #a1c45a;
+  color: #fff9e0;
+  font-weight: 300;
+  text-shadow: -1px 0px 2px rgba(150, 150, 150, 1);
+}
+
+.pricehead {
+  font-size: 2rem;
+}
+
+.pricing-col {
+  padding: 5% 2%
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header {
+  background-color: #769636;
+}
+
+.card-body {
+  background-color: #93bb44;
+  height:300px;
+  position: relative;
+}
+
+.pricingbtn {
+  position: absolute;
+  bottom: 14px;
+  right: 2.5%;
+  width: 95%;
+}
+/* CALL TO ACTION */
+#cta {
+  background-color: #a1c45a;
+  text-align: center;
+  padding: 0 0 6% 0;
+}
+
+.footer-button {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.ctaheader {
+  padding-bottom: 90px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #f1c550;
+}
+
+/* FOOTER */
+#footer {
+padding: 5%;
+text-align: center;
+}
+
+.footicon {
+margin: 20px 7px;
+}
