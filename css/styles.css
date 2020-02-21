@@ -2,6 +2,12 @@ body {
   font-family: 'Ubuntu Mono', monospace;
 }
 
+@media (max-width:1028px) {
+  body {
+    text-align: center;
+  }
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -29,11 +35,11 @@ nav {
 }
 
 .nav-item {
-  padding-right: 16px;
+  padding-right: 1rem;
 }
 
 ul {
-  margin-right: 170px;
+  padding-right: 10%;
 }
 
 .nav-link {
@@ -97,9 +103,6 @@ ul {
 
 @media (max-width:1028px) {
 
-  #titlesec {
-    text-align: center;
-  }
   .iphone {
     position: static;
     transform: none;
@@ -141,6 +144,9 @@ ul {
   color: #f5dea3;
 }
 
+ #testimonial-carousel {
+  margin: 0 10%;
+}
 .testimonial-img {
   border-radius: 50%;
   width: 15%;
@@ -151,6 +157,14 @@ ul {
   padding: 7% 30%;
 }
 
+.carousel-control-prev {
+  position: absolute;
+  left: 15%;
+}
+.carousel-control-next {
+  position: absolute;
+  right:15%;
+}
 /* PRESS SECTION */
 #press {
   background-color: #a1c45a;
@@ -160,13 +174,14 @@ ul {
 
 .presslogo {
   width: 10%;
-  margin: 4% 4%;
+  padding: 1% 1%;
 }
 
 /* MEET THE TEAM */
 
 #team {
   padding: 5% 20%;
+  position:relative;
 }
 
 .teamheader {
@@ -182,8 +197,8 @@ ul {
 
 .attribute {
   font-size:0.5rem;
-  position: relative;
-  top:90px;
+  position: absolute;
+  bottom: 2px;
 }
 /* PRICING */
 #pricing {
@@ -250,5 +265,5 @@ text-align: center;
 }
 
 .footicon {
-margin: 20px 7px;
+padding: 20px 7px;
 }
