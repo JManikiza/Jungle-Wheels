@@ -231,8 +231,14 @@ ul {
   background-color: #93bb44;
   height:300px;
   position: relative;
+  padding: 5px 3px 50px 3px;
 }
 
+@media (max-width:1192px) {
+  .card-body {
+    height: 250px;
+  }
+}
 .pricingbtn {
   position: absolute;
   bottom: 14px;
